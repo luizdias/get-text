@@ -12,11 +12,11 @@ const Header = () => {
           href={"/"}
           className="flex items-center font-[900] text-xl md:text-3xl"
         >
-          Get Text
+          Pega Texto 🔍
         </Link>
       </div>
 
-      <div>
+      {/* <div>
         <a
           href="https://github.com/ScreenTechnicals/get-text"
           target="_blank"
@@ -28,7 +28,7 @@ const Header = () => {
             <FiArrowUpRight />
           </span>
         </a>
-      </div>
+      </div> */}
     </header>
   );
 };

@@ -27,9 +27,9 @@ const Home = () => {
   return (
     <div className="min-h-[90vh]">
       <h1 className="text-white text-4xl md:text-6xl text-center px-5 pt-5 font-[800] ">
-        Built With{" "}
+        Reconhecimento de{" "}
         <span className="bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 inline-block text-transparent bg-clip-text">
-          Tesseract Js{" "}
+          Caracteres{" "}
         </span>
       </h1>
       <input
@@ -61,8 +61,8 @@ const Home = () => {
           <div className="w-full flex items-center justify-center flex-col gap-3">
             <p className="text-2xl md:text-3xl text-center text-[#707070] font-[800]">
               {processing
-                ? "Processing Image..."
-                : "Browse Or Drop Your Image Here"}
+                ? "Processando Imagem..."
+                : "Busque ou arraste sua imagem aqui"}
             </p>
             <span className="text-8xl md:text-[150px] block  text-[#5f5f5f]">
               <BsImageFill className={processing ? "animate-pulse" : ""} />

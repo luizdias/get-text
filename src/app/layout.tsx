@@ -7,8 +7,8 @@ import Footer from "@/components/Navigations/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Get Text",
-  description: "Convert Any Image To Text For Free.",
+  title: "Pega Texto",
+  description: "Converte imagem para texto.",
 };
 
 export default function RootLayout({
